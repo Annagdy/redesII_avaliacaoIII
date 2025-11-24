@@ -1,0 +1,28 @@
+# Arquivos ignorados pelo Git
+
+# Arquivos temporários do LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.dvi
+*.bbl
+*.blg
+*.nav
+*.snm
+
+# Arquivo final do relatório (o professor pega o código-fonte)
+# Se quiser incluir o PDF final, remova a linha abaixo
+*.pdf
+
+# Cache e logs do Python/Scripts
+__pycache__/
+*.pyc
+token.txt # Este arquivo é gerado, não precisa ser versionado
+
+# Arquivos temporários do Docker
+.docker/
+*.tmp
